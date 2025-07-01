@@ -1,0 +1,124 @@
+.ofertas{
+  top: -30vh;
+  position: relative;
+ 
+}
+
+.card-oferta {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: row; /* agora é horizontal */
+  overflow: hidden;
+  width: 380px; /* ou outro valor fixo */
+  height: 200px;
+  align-items: center;
+  position: relative;
+  left: 6vw;
+ 
+  
+}
+
+.card-oferta:hover {
+  transform: translateY(-5px);
+}
+.subtitulo-ofertas {
+  font-size: 22px;
+  color: #7a7a7a;
+  margin-bottom: -10vh;
+  text-align: center;
+  position: relative;
+  left: 5vw;
+}
+
+.titulo-ofertas {
+  font-size: 82px;
+  font-family: "Elsie Swash Caps", serif;
+  font-weight: 700;
+ position: relative;
+  left: 5vw;
+  color: #111;
+  text-align: center;
+}
+
+.img-oferta {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-ofertas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
+  gap: 40px 10px; /* espaço vertical e horizontal */
+  justify-items: center;
+}
+
+.card-conteudo {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.nome-planta {
+  font-family: "Elsie Swash Caps", serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 6px;
+}
+
+.preco {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.comprar-link {
+  font-size: 4px;
+  text-decoration: none;
+  color: #ff9d00;
+  font-weight: bold;
+  transition: 0.3s;
+ 
+  z-index: 999;
+ 
+}
+
+.comprar-link:hover {
+  color: #c88400;
+}
+.filtros {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  position: relative;
+  left: 5vw;
+}
+
+.filtros label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+}
+.filtros input {
+  margin-top: 5px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+  height: 20px;
+}
+.filtros select{
+   margin-top: 5px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
