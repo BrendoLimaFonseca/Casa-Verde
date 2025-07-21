@@ -51,9 +51,9 @@ const FirstComponent = () => {
       </div>
 
       <div className='home'>
-        <p style={{ fontSize: '22px', marginBottom: '-9vh' }}>Sua casa com as</p>
-        <h1 style={{ fontSize: '82px', marginBottom: '2px' }}>melhores<br />plantas</h1>
-        <p style={{ fontSize: '20px', marginBottom: '2px', color: '#202020' }}>
+        <p className='p1'  style={{  marginBottom: '-9vh' }}>Sua casa com as</p>
+        <h1 className='titulo2' style={{ marginBottom: '2px' }}>melhores<br />plantas</h1>
+        <p className='p2' style={{  marginBottom: '2px', color: '#202020' }}>
           Encontre aqui uma vasta seleção de plantas para decorar a <br />
           sua casa e torná-lo uma pessoa mais feliz no seu dia a dia.<br />
           Entre com seu e-mail e assine nossa newsletter para saber<br />
