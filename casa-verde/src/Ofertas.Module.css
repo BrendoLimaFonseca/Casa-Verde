@@ -61,6 +61,7 @@ top: 10vh;
   grid-template-columns: repeat(3, 1fr); /* 3 colunas fixas */
   gap: 40px 10px; /* espaço vertical e horizontal */
   justify-items: center;
+ 
 }
 
 .card-conteudo {
@@ -129,6 +130,8 @@ top: 10vh;
   padding: 6px;
   border-radius: 4px;
   border: 1px solid #ccc;
+   background-color: #fff;
+   color: #333;
 }
 
 @media (max-width: 1366px) {
@@ -256,5 +259,6 @@ top: 10vh;
   padding: 6px;
   border-radius: 4px;
   border: 1px solid #ccc;
+ 
 }
 }
