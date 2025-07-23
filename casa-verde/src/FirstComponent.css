@@ -23,10 +23,12 @@ right: 0%;
   font-size: 40px;
   position: relative;
   top: -5vh;
+  color: #213547;
 }
 .titulo2{
   font-size: 80px;
   white-space: nowrap;
+  color: #213547;
 }
 .p2{
   font-size: 30px;
@@ -110,6 +112,8 @@ input{
 height: 95px;
 border: none;
 box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.2); 
+background-color: #fff;
+color: #202020;
 }
 input:focus{
   outline: none;
@@ -121,7 +125,7 @@ background-color: #FFCB47;
 color: #fff;
 position: relative;
 right: 6vw;
-font-size: 15px;
+font-size: 13px;
 transition: .4s;
 }
 .butt-input:hover{
